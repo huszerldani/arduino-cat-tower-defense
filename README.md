@@ -23,7 +23,7 @@ This project is an ESP-NOW based servo controller using an ESP32. The device can
 ## Setup
 
 1. Clone this repository or download the `only_one_controller.ino` file.
-2. Open the `only_one_controller.ino` file in the Arduino IDE.
+2. Open the `arduino-cat-tower-defense.ino` file in the Arduino IDE.
 3. Set the `DEVICE_ROLE` macro to either `"CENTRAL"` or `"REMOTE"` depending on the desired role of the device.
 4. If using the `REMOTE` role, set the `centralMAC` array to the MAC address of the central device.
 5. Upload the code to your ESP32 board.
